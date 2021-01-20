@@ -1,7 +1,7 @@
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
+!Week_02/server/**
 !**/src/test/**
 
 ### IntelliJ IDEA ###
@@ -16,4 +16,7 @@ out/
 
 ### MacOS ###
 .DS_Store
+
+### Java ###
+*.class
 
