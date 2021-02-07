@@ -1,17 +1,11 @@
 ## 线程操作实现方式
-1：Runnable task = new Runnable() {
-}
+1：Runnable + join
 
+2: Callable + Future
 
-2: Callable + Feature
+3: Runnable + wait
 
-3: 线程类
-public class ChildTask implements Runnable {
-}
-
-4: 匿名类
-Runnable task = () -> {
-}
+4: Runnable + yield
 
 5: FutureTask
 
@@ -41,5 +35,5 @@ Runnable task = () -> {
 
 * wait/notify   notifyAll
 
-* yeild
+* yield
 
