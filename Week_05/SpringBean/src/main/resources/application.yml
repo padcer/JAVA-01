@@ -1,0 +1,6 @@
+school:
+  enable: true
+  name: test
+  students:
+    - enable: true
+      name: s1

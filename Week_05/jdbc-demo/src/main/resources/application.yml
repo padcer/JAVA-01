@@ -1,0 +1,11 @@
+jdbc:
+  url: jdbc:postgresql://localhost:5432/test
+  user: postgres
+  password: 123456
+
+spring:
+  datasource:
+    hikari:
+      pool-name: connPool
+      minimum-idle: 5
+      maximum-pool-size: 100
